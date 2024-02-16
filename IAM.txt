@@ -30,10 +30,37 @@ Root User(sign up AWS acc) has full permission
 
 Create new User
 -> no permission by default
--> you can create arounf 5000 accounts (+more)
--> User policies and prefer group
+-> you can create around 5000 accounts (+more)
+-> Use policies and prefer group
 -> Amazon resource Name ARN & Regular name
 -> User name and password or access keys (CLI)
+
+
+Create Groups
+
+Admin -> Policy1
+Developer -> Policy2
+Tester -> Policy3
+
+-> Add policy to group
+-> Add permission to group
+-> User gets permission via group
+-> Least privilege possible
+
+IAM Roles
+-> Roles are assumed by users, applications and services
+-> Imagine to become PM for 1 day
+-> Gain the permission for role only
+
+IAM Policies
+
+-> Policies are JSON Documents
+-> Implicitly Denied
+-> Identity based and resource based
+-> AWS support 6 types of policies
+
+
+
 
 
 
