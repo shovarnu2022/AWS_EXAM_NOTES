@@ -1,0 +1,44 @@
+How to create a user?
+
+IAM architecture
+
+
+        _____> Group____> Policy
+        |
+        |
+User--->|
+        |
+        |
+        |____> Role
+        
+        
+
+Identity and Access Management
+
+Identity and what is allowed by them
+
+User -> Group, Role and Policy
+
+Group is a way to organize user
+Policy define permission
+User can get permission directly or via group
+Roles are for delegation and are assumed
+With assumed roles you can talk to other services
+
+Root User(sign up AWS acc) has full permission
+-> should be avoided and enable MFA
+
+Create new User
+-> no permission by default
+-> you can create arounf 5000 accounts (+more)
+-> User policies and prefer group
+-> Amazon resource Name ARN & Regular name
+-> User name and password or access keys (CLI)
+
+
+
+
+
+
+
+
