@@ -1,0 +1,27 @@
+IAM:
+
+search iam in search bar:
+
+on left panel
+
+create a user group -> attach policies on that user group
+after creating a user group
+
+create a user -> check on I want to create an IAM user
+create custom password
+uncheck the change password box
+
+You can add the user in multiple groups but add it in the group which
+you created
+
+add a tag
+
+create a user
+
+
+
+
+
+
+
+
