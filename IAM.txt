@@ -59,6 +59,28 @@ IAM Policies
 -> Identity based and resource based
 -> AWS support 6 types of policies
 
+> identity based policy
+> resource based policy
+> permission boundaries
+> organization service control policy
+> access control list
+> session policy
+
+
+IAM Best Practices
+
+> Use MFA
+> Rotate Keys and passwords
+> Do not use Root account
+> Least privilege permission
+> IAM Access Analyzer: Tool to generate least privilege policy based
+on access activity
+> Regularly remove user, roles, permission, policy and credentials
+> conditions like IP-range or geo-location can be applied
+
+
+
+
 
 
 
